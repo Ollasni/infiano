@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+*.pt
+mst_plus_plus_interface
+mst_plus_plus
+# Virtual environments
+.venv
+.DS_Store
+.python-version
