@@ -55,7 +55,7 @@ async def detect_video(file: UploadFile = File(...)):
         temp_input.write(contents)
         temp_input_path = temp_input.name
     
-    # Создаем временный файл для выходного видео (всегда mp4)
+    # Создаем временный файл для выходного видео (mp4)
     temp_output_path = tempfile.mktemp(suffix='.mp4')
     
     try:
